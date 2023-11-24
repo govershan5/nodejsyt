@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#card{
+    position: absolute;
+    /* left: 50%; */
+    
+    top: 50%;
+      left: 50%;
+      
+    width: 50vw;
+
+    /* top: 50%; */
+    height: 400px;
+    /* top: 50%; */
+    display: flex;
+    /* text-align: center; */
+   transform: translate(-50%,-50%);
+    background-color: blue;
+}
+#card1{
+   left: 30%;
+   position: absolute;
+   top: 40%;
+   /* position: absolute; */
+    /* align-items: center;
+    justify-content: center; */
+    
+    /* display: inline; */
+}
+#card1>button{
+    margin-top: 50px;
+    width: 10vw;
+}
